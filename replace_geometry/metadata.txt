@@ -1,0 +1,43 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Replace Geometry
+qgisMinimumVersion=3.0
+description=A QGIS 3 plugin to replace an existing feature's geometry
+version=0.1
+author=Tony Hollows
+email=tony.hollows@gmail.com
+
+about=
+    The plugin allows an existing features geometry to be replaced with an entirely new geometry. 
+    Create a new geometry by copying/pasting or by drawing from scratch. Click the 'Swap Attributes' button to transpose each featues attributes. 
+    If 'Replace Geometry' is checked, the oldest feature (by fid) will be deleted. It can be undeleted with the 'Undo' button but the attributes will need to be swapped again with 'Replace Geometry' unchecked. 
+    If 'Replace Geometry' is unchecked the attributes wil be transposed and the layer's attribute table will be opened so the result can be checked before deleting the unwanted feature.
+
+tracker=https://github.com/thollows/qgis-replace-geometry-plugin/issues
+repository=https://github.com/thollows/qgis-replace-geometry-plugin
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://github.com/thollows/qgis-replace-geometry-plugin
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

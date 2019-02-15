@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReplaceGeometryDockWidgetBase</class>
+ <widget class="QDockWidget" name="ReplaceGeometryDockWidgetBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>263</width>
+    <height>84</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>256</width>
+    <height>84</height>
+   </size>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget  {
+    background-color: azure;
+}</string>
+  </property>
+  <property name="windowTitle">
+   <string>Replace Geometry</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="checkBox">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This option will delete the oldest (by fid) feature after swapping attributes.&lt;/p&gt;&lt;p&gt;Effectively this is a replace geometry function.&lt;/p&gt;&lt;p&gt;Use with caution.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="text">
+       <string>Replace Geometry</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="toolTip">
+       <string>Swap attributes of 2 selected features</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton:hover{
+	 	background-color: dodgerblue;
+		font: bold;
+		color: white;
+}
+
+QPushButton {
+	    background-color: powderblue;
+    	border-width: 2px;
+	    border-color: skyblue;
+	    border-style: solid;
+	    border-radius: 5px;
+   		padding: 3px;
+    	min-width: 9ex;
+    	min-height: 3.5ex;
+		font: bold;
+        color: black;
+}
+
+QPushButton:pressed {
+		background-color: red;
+		font: bold;
+		color: white;
+}
+
+
+QPushButton:on {
+        background: qlineargradient(x1 : 0, y1 : 0, x2 : 0, y2 :   1, stop :   0.0 #5AA72D,  stop :   0.5 #B3E296, stop :   0.55 #B3E296, stop :   1.0 #f5f9ff);
+        padding-top: 2px;
+        padding-left: 3px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Swap Attributes</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff/>
+       </iconset>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
