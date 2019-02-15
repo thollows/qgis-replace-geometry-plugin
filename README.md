@@ -6,7 +6,7 @@ Copy the replace_geometry folder into your QGIS plugins folder.
 
 In Windows this is %AppData%\QGIS\QGIS3\profiles\default\python\plugins
 
-Start QGIS and open the Plugin Manager in QGIS.
+Start QGIS and open the Plugin Manager.
 
 In the Installed plugins tab, check the 'Replace Geometry' plugin to activate.
 
