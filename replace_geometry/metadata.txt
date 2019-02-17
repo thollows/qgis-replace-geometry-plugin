@@ -15,9 +15,10 @@ author=Tony Hollows
 email=tony.hollows@gmail.com
 
 about=
-    The plugin allows an existing features geometry to be replaced with an entirely new geometry. 
-    Create a new geometry by copying/pasting or by drawing from scratch. Click the 'Swap Attributes' button to transpose each featues attributes. 
+    Create a new geometry by copying/pasting or by drawing from scratch. Select both features. Click the 'Swap Attributes' button to transpose each feature's attributes. 
+    
     If 'Replace Geometry' is checked, the oldest feature (by fid) will be deleted. It can be undeleted with the 'Undo' button but the attributes will need to be swapped again with 'Replace Geometry' unchecked. 
+    
     If 'Replace Geometry' is unchecked the attributes wil be transposed and the layer's attribute table will be opened so the result can be checked before deleting the unwanted feature.
 
 tracker=https://github.com/thollows/qgis-replace-geometry-plugin/issues
