@@ -2,6 +2,7 @@
 A QGIS 3 plugin to replace an existing feature's geometry
 
 ### Installation
+
 Copy the replace_geometry folder into your QGIS plugins folder.
 
 In Windows this is %AppData%\QGIS\QGIS3\profiles\default\python\plugins
@@ -10,12 +11,11 @@ Start QGIS and open the Plugin Manager.
 
 In the Installed plugins tab, check the 'Replace Geometry' plugin to activate.
 
-Click the blue 'Replace Geometry' on the toolbar. This will open a small docked widget.
-
 ### Operation
-The plugin allows an existing feature's geometry to be replaced with an entirely new geometry. 
 
-Create a new geometry by copying/pasting or by drawing from scratch. Click the 'Swap Attributes' button to transpose each feature’s attributes. 
+Click the blue 'Replace Geometry' icon on the toolbar. This will open a small docked widget.
+
+Create a new geometry by copying/pasting or by drawing from scratch. Select both features. Click the 'Swap Attributes' button to transpose each feature’s attributes. 
     
 If 'Replace Geometry' is checked, the oldest feature (by fid) will be deleted. It can be undeleted with the 'Undo' button but the attributes will need to be swapped again with 'Replace Geometry' unchecked. 
 
