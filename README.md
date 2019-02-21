@@ -15,7 +15,7 @@ In the Installed plugins tab, check the 'Replace Geometry' plugin to activate.
 
 Click the blue 'Replace Geometry' icon on the toolbar. This will open a small docked widget.
 
-Create a new geometry by copying/pasting or by drawing from scratch. Select both features. Click the 'Swap Attributes' button to transpose each feature’s attributes. 
+Create a new geometry by copying/pasting an existing feature or by drawing from scratch. Select both the original and new features. Click the 'Swap Attributes' button to transpose each feature’s attributes.
     
 If 'Replace Geometry' is checked, the oldest feature (by fid) will be deleted. It can be undeleted with the 'Undo' button but the attributes will need to be swapped again with 'Replace Geometry' unchecked. 
 
